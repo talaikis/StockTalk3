@@ -1,1 +1,1 @@
-from TwitterAxe import TwitterAxe
+from . import TwitterAxe
