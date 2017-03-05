@@ -1,7 +1,19 @@
+[![PyPI version](https://badge.fury.io/py/stocktalk3.svg)](https://pypi.python.org/pypi/stocktalk3)
+[![Build Status](https://travis-ci.org/xenu256/StockTalk3.svg?branch=master)](https://travis-ci.org/xenu256/StockTalk3)
+
 # StockTalk3
 Data collection toolkit (https://github.com/anfederico/Stocktalk) for social media analytics ported to Python 3.
 
 ## Code Examples
+
+#### Install & dependencies
+
+```text
+pip install stocktalk3
+
+pip install -r requirements.txt
+python -m nltk.downloader vader_lexicon
+```
 
 #### Mining Twitter
 
