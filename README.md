@@ -6,7 +6,7 @@ Data collection toolkit (https://github.com/anfederico/Stocktalk) for social med
 #### Mining Twitter
 
 ```python
-from stocktalk import TwitterAxe
+from stocktalk3 import TwitterAxe
 
 #credentials
 CONSUMER_KEY = ""
@@ -100,7 +100,7 @@ axe.savePlot(name='apple' [, width=6, height=4.5])
 
 #### Spam Filtering
 ```python
-from stocktalk import similarityScore
+from stocktalk3 import similarityScore
 
 stringOne = "Lawsuits are piling up against Tesla Motors (TSLA) over the Solar City (SCTY) merger"
 stringTwo = "Lawsuits piling up against Tesla Motors (TSLA) with the Solar City (SCTY) merger"
@@ -120,7 +120,7 @@ print similarityScore(stringThree, stringFour)
 
 #### Text Processing
 ```python
-from stocktalk import filter_tweets
+from stocktalk3 import filter_tweets
 
 textOne = "@TeslaMotors shares jump as shipments more than double! #winning"
 print(filter_tweets(text=textOne))
@@ -137,7 +137,7 @@ print(filter_tweets(text=textThree))
 
 #### Sentiment Analysis
 ```python
-from stocktalk import sentimentScore
+from stocktalk3 import sentimentScore
 
 textOne = "shares jump as shipments more than double winning"
 print(sentimentScore(texts=[textOne]))
