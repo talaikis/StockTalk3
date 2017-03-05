@@ -37,16 +37,20 @@ Mine complete from
 #### Save & Explore Data
 
 ```python
+# show in terminal
 axe.showInventory()
 axe.showUniqueTweets()
 axe.showFilteredTweets()
 axe.showTimeSeries()
 
+# save to outputs directory
 axe.exportUniqueTweets()
 axe.exportFilteredTweets()
+axe.exportTimeSeries()
 ```
 
 ```text
+# terminal output
 Inventory
 Unique Tweets: 398
 Filtered Tweets: 73
@@ -84,8 +88,11 @@ Time Series
 #### Visualize Sentiment Analysis
 
 ```python
+# show plot
 axe.showPlot()
-axe.savePlot(name='apple' [, width = 6, height = 4.5])
+
+# save plot to outputs directory
+axe.savePlot(name='apple' [, width=6, height=4.5])
 ```
 <!-- <img src="https://github.com/xenu256/StockTalk3/blob/master/outputs/apple.png"  width=60%> -->
 
@@ -144,4 +151,3 @@ textThree = "not looking good for tesla competition on the rise"
 print(sentimentScore(texts=[textThree]))
 # -0.341
 ```
-
