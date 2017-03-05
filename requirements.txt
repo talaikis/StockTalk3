@@ -1,0 +1,5 @@
+matplotlib==2.0.0
+nltk>=3.2.2
+pandas==0.19.2
+schedule==0.4.2
+python-twitter==3.2.1
