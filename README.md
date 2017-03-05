@@ -94,7 +94,7 @@ axe.showPlot()
 # save plot to outputs directory
 axe.savePlot(name='apple' [, width=6, height=4.5])
 ```
-<!-- <img src="https://github.com/xenu256/StockTalk3/blob/master/outputs/apple.png"  width=60%> -->
+<img src="https://github.com/xenu256/StockTalk3/blob/master/outputs/apple.png"  width=60%>
 
 ## Underlying Features
 
